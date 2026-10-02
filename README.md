@@ -8,7 +8,7 @@ A reusable AI skill for honest end-of-day accountability. Tell it what you did; 
 Secretary, daily report: studied 3h, exercised 1h, worked on my website 2h, sent one client email.
 ```
 
-The reply is short: **ON TRACK**, **MIXED**, or **DRIFTED**, a reason grounded in your report, a seven-day scoreboard, and one suggestion for tomorrow. Necessary obligations and deliberate rest are treated fairly.
+The reply is short: **ON TRACK**, **MIXED**, or **DRIFTED**, a reason grounded in your report, a seven-day scoreboard, and one suggestion for tomorrow. Necessary obligations and deliberate rest are treated fairly. See [`examples/daily-report.md`](examples/daily-report.md) for a full run.
 
 ## What's in this repo?
 
@@ -17,6 +17,8 @@ The reply is short: **ON TRACK**, **MIXED**, or **DRIFTED**, a reason grounded i
 | [`personal-secretary/SKILL.md`](personal-secretary/SKILL.md) | The installable core skill. |
 | [`templates/`](templates/) | Starter files for your time zone, goals, and strategy. |
 | [`PORTABLE.md`](PORTABLE.md) | Short instructions for AI assistants without skill-file support. |
+| [`examples/`](examples/) | A worked daily report: the reply, the log entry it writes, and why it chose that verdict. |
+| [`assets/`](assets/) | The banner and its HTML source. |
 | [`docs/original-starter-kit.md`](docs/original-starter-kit.md) | The complete supplied Claude Code starter kit, including optional calendar, inbox, deadline, and helper-agent ideas. |
 
 The original kit calls the secretary **Gang** and uses `~/Desktop/gang/`. This repo's installable version uses the generic name **Personal Secretary** and `~/personal-secretary/` by default. The core works without the optional additions.

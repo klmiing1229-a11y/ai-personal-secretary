@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="secretary: your day, judged against your goals" width="100%"></p>
+
 # AI Personal Secretary
 
 A reusable AI skill for honest end-of-day accountability. Tell it what you did; it compares your day with **your** goals and current strategy, gives one verdict, and keeps a plain Markdown record.
